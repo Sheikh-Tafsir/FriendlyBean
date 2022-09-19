@@ -1,6 +1,6 @@
 <h1 align="center">FriendlyBean</h1>
 <p align="center">
-   <img src="https://img.shields.io/badge/language-JavaScript-red?style"/>
+   <img src="https://img.shields.io/badge/language-CSS-blue?style"/>
    <img src="https://img.shields.io/github/license/Sheikh-Tafsir/Algo-Easy"/>
    <img src="https://img.shields.io/github/stars/Sheikh-Tafsir/FriendlyBean"/>
    <img src="https://img.shields.io/github/forks/Sheikh-Tafsir/FriendlyBean"/>
