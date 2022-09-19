@@ -1,5 +1,6 @@
 body{
     background-color:#3c3734;
+	overflow:hidden;
 }
 .board{
     /*position:relative;
