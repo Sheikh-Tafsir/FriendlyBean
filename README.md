@@ -1,0 +1,1 @@
+# FriendlyBean.github.io
