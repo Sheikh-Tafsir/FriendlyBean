@@ -1,0 +1,297 @@
+body{
+    background-color:#3c3734;
+}
+.board{
+    /*position:relative;
+    top:5rem;
+    left:40rem;*/
+    margin:0 30rem ;
+    border:0.15rem solid white;
+    height:48rem;
+    /*background-color: #34302e;*/
+    background-image: linear-gradient(300deg, #34302e, #524a46);
+    
+}
+.poster{
+    margin: 0.2rem;
+    border: 0.1rem dotted white;
+    height:47.4rem;
+}
+.back{
+    position:relative;
+    left:10rem;
+    /*margin: 1rem 5rem;*/
+    padding:0 0.2rem ;
+    
+}
+.deli{
+    position:relative;
+    top:-2rem;
+    left:-2rem;
+    color:pink;
+    font-style: oblique;
+    font-size:4rem;
+}
+.ice{
+    position:relative;
+    top:-6rem;
+    left:-11rem;
+    font-family:Arial Narrow, sans-serif;
+    background-color: whitesmoke;
+    color:black;
+    font-size:2rem;
+    margin: 0 13rem;
+}
+.ice p{
+    padding: 0 1rem;
+    
+}
+.cfe{
+    position:relative;
+    top:-10rem;
+    left:0rem;
+    color:#8f6342;
+    font-size:3.5rem;
+    font-family: "Brush Script MT", Brush Script Std, cursive;
+}
+.cktl{
+    position:relative;
+    top:-14rem;
+    left:-10rem;
+        font-family:Arial Narrow, sans-serif;
+        background-color: whitesmoke;
+        color:black;
+        font-size:4rem;
+        margin: 0 7rem;
+        z-index:20;
+}
+.cktl p{
+    padding: 0.1rem 1.5rem;  
+}
+.cktlu{
+    position:relative;
+    top:-21.8rem;
+    left:-5rem;
+    height:2.5rem;
+    width:22rem;
+    border:0.2rem dotted white;
+    z-index:19;
+}
+.cofcup{
+    position:relative;
+    top:-19rem;
+}
+.cupbef2{
+	position:relative;
+    top:2.75rem;
+    left:0.35rem;
+	height:1.6rem;
+    width:10.8rem;
+    background-color:#524a46;
+    border-radius:40%;
+    z-index:3;
+}
+.cupbef{
+	position:relative;
+    top:1rem;
+	height:2rem;
+    width:11.5rem;
+    background-color:#d4d2d2;
+    border-radius:40%;
+    z-index:2;
+}
+.cup {
+	position:relative;
+    left:0.25rem;
+	/*background-color:pink;*/
+	border-top: 15rem solid #8f6342;
+	border-left: 1.5rem solid transparent;
+	border-right: 1.5rem solid transparent;
+	height: 0px;
+	width: 8rem;
+    border-radius:0 0 27% 27%;
+    z-index:1;
+}
+.cover{
+	position:relative;
+    top:-10rem;
+    left:0.4rem;
+	border-top: 5rem solid  #d4d2d2;
+	border-left: 0.6rem solid transparent;
+	border-right: 0.6rem solid transparent;
+    border-radius:3% 3% 20% 20%;
+	height: 0px;
+	width: 9.5rem;
+    z-index:4;
+}
+.coveraft{
+	position:relative;
+    top:-11.7rem;
+    left:1rem;
+	height: 2rem;
+	width: 9.5rem;
+    border-radius:50%;
+    background-color:#d4d2d2;
+    z-index:5;
+}
+.coverbef{
+	position:relative;
+    top:-18rem;
+    left:0.75rem;
+	height: 1.5rem;
+	width: 10rem;
+    border-radius:50%;
+    background-color:#8f6342;
+    z-index:6;
+}
+.wrttop{
+	position:relative;
+    top:-26.8rem;
+    left:1.8rem;
+	color:pink;
+    font-style: oblique;
+    font-size:3.9rem;
+    z-index:7;   
+}
+.wrtmid{
+	position:relative;
+    top:-30.5rem;
+    left:4.7rem;
+	color:#555;
+    font-family:Arial Narrow, sans-serif;
+    transform: scale(1.2, 1);
+    font-size:3.7rem;
+    z-index:7;   
+}
+.wrtdwn{
+	position:relative;
+    top:-32.8rem;
+    left:1.9rem;
+	color:pink;
+    /*font-style: oblique;*/
+    font-family: "Brush Script MT", Brush Script Std, cursive;
+    transform: scale(1, 1.9);
+    font-size:2rem;
+    z-index:7;   
+}
+.cap{
+    position:relative;
+    top:2rem;
+    left:0rem;
+    background-color: pink;
+    /* Create the circle */
+    width: 10rem;
+    height:8rem;
+    border-radius: 50% 50% 0 0
+  }
+.pipe{
+    position:relative;
+    top:4.4rem;
+    left:9rem;
+    height:5.7rem;
+    width:0.8rem;
+    border: 0.1rem solid white;
+    transform: rotate(20deg);
+    background-image: repeating-linear-gradient(-45deg,rgb(41, 40, 40),whitesmoke 20%, #555 20%);
+    border-radius: 0 0 20% 10%;
+    z-index:6;
+}
+.circ{
+    position:relative;
+    top:-57rem;
+    left:-5.5rem;
+    height:22rem;
+    width:22rem;
+    border:0.2rem dashed white;
+    border-radius:50%;
+}
+
+.rlet{
+    position: relative;
+    top:-102rem;
+    left:6.8rem;
+    background-color:white;
+    color:black;
+    font-size:1.5rem;
+    font-weight: bold;
+    margin: 0 15.3rem;
+  }
+  .lett{
+    /*position: relative;
+    top:-80rem;
+    left:20rem;*/
+    padding: 0 0.5rem;
+    font-size:1.5rem;
+    font-weight: bold;
+    margin:0; 
+  }
+  .upp{
+    position: relative;
+    top:-2rem;
+    left:45rem;
+    background-color: #3c3734;
+    height:2rem;
+    width:5rem   
+  }
+  .lef{
+    position: relative;
+    top:-35rem;
+    left:29rem;
+    background-color:  #3c3734;
+    height:10rem;
+    width:2rem   
+  }
+
+.stln1{
+    position: relative;
+    top:-20rem;
+    left:-13rem;
+    margin:0;
+    padding:0;
+    color:#8f6342;
+    text-align: center;
+    font-size:0.8rem;
+}
+.cofpot{
+    position: relative;
+    top:-66rem;
+    left:58rem;
+    background-color:#8f6342;
+    border:0.3rem solid white;
+    height:4rem;
+    width:4rem;
+    border-radius:50%;
+}
+.cofhan{
+    position: relative;
+    top:-68rem;
+    left:58rem;
+    background-color:white;
+    height:1.5rem;
+    width:0.6rem;
+    border-radius: 0 0 50% 50% ;
+    transform: rotate(40deg);
+}
+.ribbon{
+    text-align: right;
+    position: relative;
+    top:-33rem;
+    left:-30rem;
+    color:white;
+    
+}
+.ribbon p{
+    margin: 0;
+}
+.ribbon2{
+    position: relative;
+    top:-33.5rem;
+    left:-13rem;
+    color:white;
+    transform: rotate(90deg);
+    
+}
+.ribbon2 p{
+    margin: 0;
+    
+}
